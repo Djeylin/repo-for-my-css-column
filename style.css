@@ -1,0 +1,11 @@
+/* первый раздел -  1 */
+/* 1. column - count */
+h2{
+    column-span: all;
+}
+p{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px solid black;
+    column-width: 200px;
+}
